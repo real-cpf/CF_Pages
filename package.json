@@ -1,0 +1,16 @@
+{
+  "name": "page",
+  "version": "1.0.0",
+  "description": "page",
+  "main": "index.js",
+  "repository": "git@github.com:real-cpf/CF_Pages.git",
+  "author": "jiacheng.liu <realcpf@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+    "scripts":{
+	"docs:dev": "vuepress dev docs",
+	"docs:build": "vuepress build docs"
+    }
+}
